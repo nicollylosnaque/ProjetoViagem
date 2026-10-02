@@ -13,7 +13,7 @@
                       Position="{Binding Posicao}"
                       IndicatorView="Indicador"
                       Loop="False"
-                      ItemsSource="{Binding Itens}>
+                      ItemsSource="{Binding Itens}">
             
             <CarouselView.ItemTemplate>
                 <DataTemplate x:DataType="models:OnboardingItem">
